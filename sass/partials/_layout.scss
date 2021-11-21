@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 229, 229, 1) 100%
+  );
+}
+
+.container {
+  padding-right: var(--bs-gutter-x, 2rem);
+  padding-left: var(--bs-gutter-x, 2rem);
+}
+
+.container-fluid {
+  padding-right: var(--bs-gutter-x, 2rem);
+  padding-left: var(--bs-gutter-x, 2rem);
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-right: var(--bs-gutter-x, 4rem);
+    padding-left: var(--bs-gutter-x, 4rem);
+  }
+
+  .container-fluid {
+    padding-right: var(--bs-gutter-x, 4rem);
+    padding-left: var(--bs-gutter-x, 4rem);
+  }
+}

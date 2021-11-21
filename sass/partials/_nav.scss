@@ -1,0 +1,36 @@
+.form__input--style {
+  border: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.btn__nav {
+  background-color: $pink-color;
+  color: $white;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.navbar {
+  background-color: $nav-color !important;
+}
+
+.navbar-brand {
+  color: $pink-color !important;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.active {
+  background-color: $white;
+}
+
+.navbar-collapse form {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse form {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

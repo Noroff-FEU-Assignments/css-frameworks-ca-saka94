@@ -1,0 +1,13 @@
+.carousel__button--styling {
+  height: 2rem !important;
+  opacity: 1 !important;
+  border-radius: 0.5rem !important;
+}
+
+.carousel-indicators .active {
+  background-color: $pink-color;
+}
+
+.carousel-inner {
+  max-height: 462px;
+}
